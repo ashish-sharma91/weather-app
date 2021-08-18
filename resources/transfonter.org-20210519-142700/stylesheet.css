@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'STIHL Contraface Display';
+    src: url('STIHLContrafaceDisplayMedium.woff2') format('woff2'),
+        url('STIHLContrafaceDisplayMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIHL Contraface Display';
+    src: url('STIHLContrafaceDisplayTitling.woff2') format('woff2'),
+        url('STIHLContrafaceDisplayTitling.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIHL Contraface Text';
+    src: url('STIHLContrafaceText.woff2') format('woff2'),
+        url('STIHLContrafaceText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIHL Contraface Text Demi';
+    src: url('STIHLContrafaceTextDemi.woff2') format('woff2'),
+        url('STIHLContrafaceTextDemi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

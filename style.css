@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "STIHLContrafaceText";
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceDisplayMedium.woff")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceDisplayMedium.woff2")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceDisplayTitling.woff")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceDisplayTitling.woff2")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceText.woff")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceText.woff2")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceTextDemi.woff")
+      format("woff");
+    src: url("./resources/transfonter.org-20210519-142700/STIHLContrafaceTextDemi.woff2")
+      format("woff");
+  }
+  
+  html {
+    font-size: 40px;
+  }
+  
+  @media only screen and (max-width: 3000px) {
+    html {
+      font-size: 35px;
+    }
+  }
+  @media only screen and (max-width: 2000px) {
+    html {
+      font-size: 25px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+    font-family: sans-serif;
+  }
+  
+  .weather-container {
+    /* 3840 x 2160 PX */
+    /* width: 3840px; */
+    /* height: 2160px; */
+    width: calc(100% - 16px);
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .weather-container--header {
+    background-color: #f37a1f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .weather-container--header .branding {
+    font-size: 1.5rem;
+  }
+  
+  .weather-container--body {
+    background-color: rgb(200, 200, 200);
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .weather-container--body .content {
+    background-color: white;
+    height: 100%;
+    padding: 1rem;
+    width: 70%;
+  }
+  
+  .weather-container--body .content .temp {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .weather-container--body .content .temp-min-max {
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  
+  .weather-container--body .content .city {
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  
+  .weather-container--body .content .next-three-days {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+  }
+  
+  .weather-container--body .content .next-three-days .temp {
+    font-size: 1.75rem;
+  }
+  
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(30% - 2.5rem);
+    object-fit: cover;
+  }
+  
